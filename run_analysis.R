@@ -8,6 +8,8 @@ unzip("a1")
  ytrain <- read.table("./UCI HAR Dataset/train/y_train.txt")
  features <- read.table("./UCI HAR Dataset/features.txt")
  activities <- read.table("./UCI HAR Dataset/activity_labels.txt")
+ subte <- read.table("./UCI HAR Dataset/test/subject_test.txt")
+ subtr <- read.table("./UCI HAR Dataset/train/subject_train.txt")
  
  
  colnames(xtest) <- features[ ,2]
